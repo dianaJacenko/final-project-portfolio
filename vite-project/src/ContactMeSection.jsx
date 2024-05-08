@@ -14,8 +14,8 @@ import {
 } from "@chakra-ui/react"; 
 import * as Yup from 'yup'; 
 import FullScreenSection from "./FullScreenSection"; 
-import useSubmit from "../hooks/useSubmit"; 
-import {useAlertContext} from "../context/alertContext"; 
+import useSubmit from "./useSubmit"; 
+import {useAlertContext} from "./alertContext"; 
  
 /** 
 * Covers a complete form implementation using formik and yup for validation 

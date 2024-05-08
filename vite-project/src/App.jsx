@@ -1,23 +1,23 @@
 import { ChakraProvider } from "@chakra-ui/react"; 
-import Header from "./components/Header"; 
-import LandingSection from "./components/LandingSection"; 
-import ProjectsSection from "./components/ProjectsSection"; 
-import ContactMeSection from "./components/ContactMeSection"; 
-import Footer from "./components/Footer"; 
-import { AlertProvider } from "./context/alertContext"; 
-import Alert from "./components/Alert"; 
+import Header from "./Header"; 
+import LandingSection from "./LandingSection"; 
+import ProjectsSection from "./ProjectsSection"; 
+import ContactMeSection from "./ContactMeSection"; 
+import Footer from "./Footer"; 
+import { AlertProvider } from "./alertContext"; 
+import Alert from "./Alert"; 
 
 function App() { 
  return ( 
    <ChakraProvider> 
      <AlertProvider> 
        <main> 
-         <Header /> 
+         <Header />
          <LandingSection /> 
-         <ProjectsSection /> 
-         <ContactMeSection /> 
+         {/* <ProjectsSection />  */}
+         {/* <ContactMeSection />  */}
          <Footer /> 
-         <Alert /> 
+         {/* <Alert />  */}
        </main> 
      </AlertProvider> 
    </ChakraProvider> 
