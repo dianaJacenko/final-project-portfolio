@@ -14,10 +14,10 @@ function App() {
        <main> 
          <Header />
          <LandingSection /> 
-         {/* <ProjectsSection />  */}
-         {/* <ContactMeSection />  */}
+         <ProjectsSection /> 
+         <ContactMeSection /> 
          <Footer /> 
-         {/* <Alert />  */}
+         <Alert /> 
        </main> 
      </AlertProvider> 
    </ChakraProvider> 
